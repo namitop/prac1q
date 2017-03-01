@@ -1,0 +1,25 @@
+current directory: /var/www/prac1q/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+/home/vagrant/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20170227-16091-y88j3i.rb extconf.rb
+creating Makefile
+
+current directory: /var/www/prac1q/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+make: 警告: ファイル `Makefile' の修正時刻が 1.9e+02 秒分未来の時刻です
+make: 警告:  時刻のずれを検出. 不完全なビルド結果になるかもしれません.
+
+current directory: /var/www/prac1q/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+make: 警告: ファイル `Makefile' の修正時刻が 1.9e+02 秒分未来の時刻です
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+make: 警告:  時刻のずれを検出. 不完全なビルド結果になるかもしれません.
+
+current directory: /var/www/prac1q/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+make: 警告: ファイル `Makefile' の修正時刻が 1.8e+02 秒分未来の時刻です
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20170227-16091-yskmy8/byebug
+make: 警告:  時刻のずれを検出. 不完全なビルド結果になるかもしれません.

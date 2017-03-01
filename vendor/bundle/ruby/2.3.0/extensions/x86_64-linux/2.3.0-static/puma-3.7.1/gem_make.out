@@ -1,0 +1,38 @@
+current directory: /var/www/prac1q/vendor/bundle/ruby/2.3.0/gems/puma-3.7.1/ext/puma_http11
+/home/vagrant/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20170227-16091-3n3207.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /var/www/prac1q/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/puma-3.7.1/mkmf.log
+
+current directory: /var/www/prac1q/vendor/bundle/ruby/2.3.0/gems/puma-3.7.1/ext/puma_http11
+make "DESTDIR=" clean
+make: 警告: ファイル `Makefile' の修正時刻が 1.8e+02 秒分未来の時刻です
+make: 警告:  時刻のずれを検出. 不完全なビルド結果になるかもしれません.
+
+current directory: /var/www/prac1q/vendor/bundle/ruby/2.3.0/gems/puma-3.7.1/ext/puma_http11
+make "DESTDIR="
+make: 警告: ファイル `Makefile' の修正時刻が 1.8e+02 秒分未来の時刻です
+compiling http11_parser.c
+ext/puma_http11/http11_parser.rl: In function ‘puma_parser_execute’:
+ext/puma_http11/http11_parser.rl:111: 警告: 符合付きと符合無しの整数式同士の比較です
+compiling io_buffer.c
+compiling mini_ssl.c
+mini_ssl.c: In function ‘engine_init_server’:
+mini_ssl.c:153: 警告: ISO C90 forbids mixed declarations and code
+mini_ssl.c:158: 警告: ISO C90 forbids mixed declarations and code
+mini_ssl.c:180: 警告: ISO C90 forbids mixed declarations and code
+mini_ssl.c:184: 警告: ISO C90 forbids mixed declarations and code
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+make: 警告:  時刻のずれを検出. 不完全なビルド結果になるかもしれません.
+
+current directory: /var/www/prac1q/vendor/bundle/ruby/2.3.0/gems/puma-3.7.1/ext/puma_http11
+make "DESTDIR=" install
+make: 警告: ファイル `Makefile' の修正時刻が 1.8e+02 秒分未来の時刻です
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20170227-16091-719l5y/puma
+make: 警告:  時刻のずれを検出. 不完全なビルド結果になるかもしれません.

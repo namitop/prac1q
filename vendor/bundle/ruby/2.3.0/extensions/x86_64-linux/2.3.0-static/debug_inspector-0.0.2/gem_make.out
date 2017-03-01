@@ -1,0 +1,21 @@
+current directory: /var/www/prac1q/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+/home/vagrant/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20170227-16091-1wre8a6.rb extconf.rb
+creating Makefile
+
+current directory: /var/www/prac1q/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+make: 警告: ファイル `Makefile' の修正時刻が 1.8e+02 秒分未来の時刻です
+make: 警告:  時刻のずれを検出. 不完全なビルド結果になるかもしれません.
+
+current directory: /var/www/prac1q/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+make: 警告: ファイル `Makefile' の修正時刻が 1.8e+02 秒分未来の時刻です
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+make: 警告:  時刻のずれを検出. 不完全なビルド結果になるかもしれません.
+
+current directory: /var/www/prac1q/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+make: 警告: ファイル `Makefile' の修正時刻が 1.8e+02 秒分未来の時刻です
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20170227-16091-1528twa
+make: 警告:  時刻のずれを検出. 不完全なビルド結果になるかもしれません.
